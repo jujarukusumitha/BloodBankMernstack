@@ -1,0 +1,25 @@
+.account-container{
+    display: flex;
+}
+.image-account-container{
+    background-image: url("../Images/Head.jpg");
+    background-size: 100% 100%;
+    width: 130vh;
+    height: 88.5vh;
+}
+.text-account-container{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.account-container img{
+    height: 118px;
+    padding: 2px;
+    width:500px;
+}
+.account-container h2{
+    color: #333366;
+    padding-left: 40px;
+}
