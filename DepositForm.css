@@ -1,0 +1,50 @@
+.deposit-container{
+    display: flex;
+}
+.image-deposit-container{
+    background-image: url("../Images/Head.jpg");
+    background-size: 100% 100%;
+    width: 130vh;
+    height: 88.5vh;
+}
+.text-deposit-container{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.text-deposit-container input{
+    border: 1px solid rgb(131, 140, 239);
+    padding: 1vw 1vw;
+    border-radius: 10px;
+    width: 300px;
+    display: flex;
+    margin: 5px;
+    margin-left: 40px;
+    color: #ba1919;
+
+}
+.text-deposit-container button{
+    border: 1px solid rgb(131, 140, 239);
+    padding: 0.8vw 1vw;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 40px;
+}
+.text-deposit-container button:hover{
+  background-color: #a4a4db;
+
+}
+.text-deposit-container img{
+    height: 118px;
+    padding: 2px;
+    width:500px;
+}
+.text-deposit-container label{
+    padding-left: 40px;
+}
+.text-deposit-container h2{
+    color: #333366;
+    padding-left: 40px;
+}
