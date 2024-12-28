@@ -1,0 +1,69 @@
+/* General reset and styling */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Navbar container */
+nav {
+  background-color: #36366f; /* Dark gray background */
+  height: 80px; /* Increased navbar height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Unordered list inside the navbar */
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly; /* Equal spacing between links */
+  margin: 0;
+  padding: 0;
+  width: 100%; /* Ensure the list takes full width */
+}
+
+/* List items */
+nav ul li {
+  margin: 0;
+}
+
+/* Navigation links */
+.nav-link {
+  background-color: #03032d; /* Orange background color */
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners */
+  padding: 10px 20px; /* Padding for button size */
+  font-size: 16px; /* Font size */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth hover effects */
+}
+
+/* Hover effect for links */
+.nav-link:hover {
+  background-color: #495057; /* Lighter gray for hover */
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Active link effect */
+.nav-link:active {
+  background-color: #6c757d; /* Darker gray for active state */
+}
+
+/* Responsive styling for smaller screens */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column; /* Vertical layout for small screens */
+    align-items: center;
+    gap: 10px;
+  }
+
+  .nav-link {
+    font-size: 16px;
+  }
+}
